@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 29%;
+}
+
+p {
+  color: red;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1023px) {
+  div {
+    margin-top: 80%;
+  }
+  p {
+    font-size: 28px;
+  }
+}
